@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Azkaban Barbearia | Santa Terezinha, Juiz de Fora</title>
+<meta name="description" content="Azkaban Barbearia em Santa Terezinha, Juiz de Fora. Qualidade e atendimento exclusivo. Agende pelo WhatsApp com o barbeiro que você escolher.">
+<meta name="theme-color" content="#100f0d">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f2f1ee;--bg2:#fff;--tx:#161412;--mut:#625d54;--gold:#7a5a12;--gold2:#a47c22;--line:rgba(22,20,18,.16);--on:#fff;--f:'Pirata One','UnifrakturCook',Georgia,serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#100f0d;--bg2:#1a1815;--tx:#f1ece0;--mut:#a39d90;--gold:#cfa94d;--gold2:#ecd28f;--line:rgba(207,169,77,.28);--on:#100f0d}}
+:root[data-theme="dark"]{--bg:#100f0d;--bg2:#1a1815;--tx:#f1ece0;--mut:#a39d90;--gold:#cfa94d;--gold2:#ecd28f;--line:rgba(207,169,77,.28);--on:#100f0d}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px))}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px)}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;display:flex;align-items:center;justify-content:space-between;padding:10px 20px;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.logo{font:28px var(--f);color:var(--gold);text-decoration:none}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 26px;border-radius:999px;border:1px solid var(--gold);font:600 15px/1 system-ui,sans-serif;cursor:pointer;text-decoration:none;color:var(--gold);background:transparent;transition:transform .2s,box-shadow .2s}
+.btn.g{background:linear-gradient(135deg,var(--gold2),var(--gold));color:var(--on);border-color:transparent}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px color-mix(in srgb,var(--gold) 32%,transparent)}
+.btn:focus-visible,.sv:focus-visible,.bk:focus-visible,summary:focus-visible{outline:2px solid var(--gold2);outline-offset:3px}
+.hero{text-align:center;padding:84px 20px 76px;background:radial-gradient(60% 70% at 50% 0%,color-mix(in srgb,var(--gold) 22%,transparent),transparent 70%)}
+h1{margin:0;font:400 clamp(72px,24vw,180px)/.95 var(--f);background:linear-gradient(180deg,var(--gold2),var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}
+h1 small{display:block;margin-top:12px;font:500 clamp(18px,4vw,28px) system-ui,sans-serif;letter-spacing:.42em;color:var(--tx);-webkit-text-fill-color:var(--tx)}
+.hero p{max-width:460px;margin:24px auto 30px;color:var(--mut);font-size:18px}
+.cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.pole{height:8px;background:repeating-linear-gradient(135deg,var(--gold) 0 10px,transparent 10px 20px);opacity:.5}
+section{max-width:960px;margin:0 auto;padding:72px 20px}
+h2{margin:0 0 8px;font:400 clamp(36px,7vw,52px)/1.1 var(--f);color:var(--gold);text-align:center}
+.sub{max-width:460px;margin:0 auto 36px;text-align:center;color:var(--mut)}
+.menu{display:grid;gap:0 40px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.sv{font:inherit;color:inherit;text-align:left;background:none;border:0;border-bottom:1px solid var(--line);padding:22px 4px;cursor:pointer;transition:padding .2s}
+.sv:hover{padding-left:14px}
+.sv:hover h3{color:var(--gold)}
+.sv h3{margin:0 0 4px;font:400 30px var(--f);color:var(--tx)}
+.sv p{margin:0;color:var(--mut);font-size:15px}
+#team,#pick{display:grid;gap:14px}
+#team{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.bk{display:flex;align-items:center;gap:16px;padding:16px 18px;background:var(--bg2);border:1px solid var(--line);border-radius:16px;color:var(--tx);text-decoration:none;transition:border-color .2s,transform .2s}
+.bk:hover{border-color:var(--gold);transform:translateY(-2px)}
+.bk i{flex:none;display:grid;place-items:center;width:54px;height:54px;border-radius:50%;font:32px var(--f);color:var(--on);background:linear-gradient(135deg,var(--gold2),var(--gold))}
+.bk span{display:flex;flex-direction:column}
+.bk b{font:400 30px/1.1 var(--f)}
+.bk small{color:var(--mut)}
+#local{text-align:center}
+footer{text-align:center;padding:28px 20px 36px;color:var(--mut);font-size:14px;border-top:1px solid var(--line)}
+.fab{display:none;position:fixed;left:0;right:0;bottom:0;z-index:15;padding:10px 14px calc(10px + env(safe-area-inset-bottom,0px));background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(12px);border-top:1px solid var(--line)}
+.fab .btn{width:100%}
+@media(max-width:720px){.fab{display:block}body{padding-bottom:72px}}
+dialog{padding:0;border:1px solid var(--line);border-radius:20px;background:var(--bg2);color:var(--tx);width:min(440px,calc(100% - 32px));max-height:calc(100% - 32px)}
+dialog::backdrop{background:rgba(0,0,0,.72);backdrop-filter:blur(4px)}
+.in{position:relative;padding:26px 22px 22px}
+dialog h3{margin:0 28px 6px;font:400 36px/1.1 var(--f);color:var(--gold);text-align:center}
+.x{position:absolute;top:10px;right:12px;width:36px;height:36px;border:0;background:none;color:var(--mut);font-size:26px;line-height:1;cursor:pointer}
+details{margin:0 0 16px;border:1px dashed var(--line);border-radius:12px;padding:12px 14px}
+summary{cursor:pointer;color:var(--gold);font-weight:600;font-size:15px}
+label{display:block;margin-top:12px;font-size:14px;color:var(--mut)}
+input,select{width:100%;margin-top:4px;padding:11px 12px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--tx);font:16px system-ui,sans-serif}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<header><a class="logo" href="#top">Azkaban</a><button class="btn g" data-open>Agendar</button></header>
+<main id="top">
+<div class="hero">
+<h1>Azkaban<small>Barbearia</small></h1>
+<p>Cuidando do seu estilo com qualidade e atendimento exclusivo.</p>
+<div class="cta"><button class="btn g" data-open>Agendar pelo WhatsApp</button><a class="btn" href="#servicos">Ver serviços</a></div>
+</div>
+<div class="pole"></div>
+<section id="servicos">
+<h2>Serviços</h2>
+<p class="sub">Toque em um serviço para começar o seu agendamento.</p>
+<div class="menu">
+<button class="sv" data-s="um corte"><h3>Corte</h3><p>Degradê, social ou na tesoura, com acabamento caprichado.</p></button>
+<button class="sv" data-s="a barba"><h3>Barba</h3><p>Alinhamento e acabamento na navalha.</p></button>
+<button class="sv" data-s="corte e barba"><h3>Corte e barba</h3><p>O combo completo para sair pronto.</p></button>
+<button class="sv" data-s="o tratamento VIP"><h3>Tratamento VIP</h3><p>Hidratação e limpeza para um cuidado completo.</p></button>
+</div>
+</section>
+<section id="barbeiros">
+<h2>Nossos barbeiros</h2>
+<p class="sub">Escolha com quem quer cortar e chame direto no WhatsApp.</p>
+<div id="team"></div>
+</section>
+<section id="local">
+<h2>Onde estamos</h2>
+<p class="sub">Rua Santana, 41, Santa Terezinha<br>Juiz de Fora, MG</p>
+<div class="cta"><a class="btn g" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Rua+Santana+41+Santa+Terezinha+Juiz+de+Fora+MG">Abrir no Maps</a><a class="btn" target="_blank" rel="noopener" href="https://www.instagram.com/azkabanbarbearia.jf/">Instagram</a></div>
+</section>
+</main>
+<footer>© 2026 Azkaban Barbearia. Cuidando do seu estilo.</footer>
+<div class="fab"><button class="btn g" data-open>Agendar pelo WhatsApp</button></div>
+<dialog id="m" aria-labelledby="mt"><div class="in">
+<button class="x" id="x" aria-label="Fechar">×</button>
+<h3 id="mt">Escolha seu barbeiro</h3>
+<p class="sub" style="margin-bottom:18px">Você vai direto para o WhatsApp dele, com a mensagem pronta.</p>
+<details><summary>Adiantar informações (opcional)</summary>
+<label>Seu nome<input id="n" autocomplete="name"></label>
+<label>Serviço<select id="s"><option value="">Escolher depois</option><option value="um corte">Corte</option><option value="a barba">Barba</option><option value="corte e barba">Corte e barba</option><option value="o tratamento VIP">Tratamento VIP</option></select></label>
+<label>Dia e horário preferido<input id="w" placeholder="Ex.: sábado de manhã"></label>
+</details>
+<div id="pick"></div>
+</div></dialog>
+<script>
+const B=[["Felipe","5532991633993"],["João","5532991731525"],["Juan","5532999557007"]],$=s=>document.querySelector(s),d=$("#m");
+const h=B.map(([n,p])=>`<a class="bk" target="_blank" rel="noopener" data-n="${n}" data-p="${p}"><i>${n[0]}</i><span><b>${n}</b><small>Chamar no WhatsApp</small></span></a>`).join("");
+$("#pick").innerHTML=h;$("#team").innerHTML=h;
+function ref(){const n=$("#n").value.trim(),s=$("#s").value,w=$("#w").value.trim();
+document.querySelectorAll(".bk").forEach(a=>{const t="Olá, "+a.dataset.n+"! "+(n?"Me chamo "+n+". ":"")+"Vim pelo site da Azkaban Barbearia e gostaria de agendar "+(s||"um horário")+(w?" ("+w+")":"")+".";a.href="https://wa.me/"+a.dataset.p+"?text="+encodeURIComponent(t)})}
+document.querySelectorAll("[data-open]").forEach(e=>e.onclick=()=>{ref();d.showModal()});
+document.querySelectorAll("[data-s]").forEach(e=>e.onclick=()=>{$("#s").value=e.dataset.s;ref();d.showModal()});
+$("#x").onclick=()=>d.close();d.onclick=e=>{if(e.target===d)d.close()};d.addEventListener("input",ref);ref();
+</script>
+</body>
+</html>
